@@ -8,10 +8,11 @@ console.log(navCategory.childNodes[1].textContent);
 console.log(navCategory.childNodes[3]);
 const elemList = navCategory.childNodes[3];
 console.log(elemList.childNodes);
-// for (let index = 0; index < navCategory.childNodes.length; index++) {
-//    const element = array[index];
+for (let index = 0; index < elemList.childNodes.length; index++) {
+   if(elemList.childNodes[index].nodeName !== "#text")
+      console.log(elemList.childNodes[index].nodeName);
    
-// }
+}
 // const elemH2 = navCategory.firstChild;
 // console.log(elemH2.nodeName);
 // const elemList = navCategory.firstChild.nextSibling;
