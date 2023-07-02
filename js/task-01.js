@@ -4,12 +4,14 @@ const navRoot = document.querySelector('#categories');
 const navCategory = document.querySelector('.item');
 console.dir(navCategory.childNodes);
 console.log(navCategory.childNodes);
+console.log(navCategory.childNodes[1].textContent);
+console.log(navCategory.childNodes[3]);
 // for (let index = 0; index < navCategory.childNodes.length; index++) {
 //    const element = array[index];
    
 // }
-const elemH2 = navCategory.firstChild;
-console.log(elemH2.nodeName);
+// const elemH2 = navCategory.firstChild;
+// console.log(elemH2.nodeName);
 // const elemList = navCategory.firstChild.nextSibling;
 // console.log(elemList);
 
