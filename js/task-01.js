@@ -1,16 +1,22 @@
 const navRoot = document.querySelector('#categories');
 // console.log(navRoot);
-// console.log(navRoot.childNodes);
+console.log(navRoot.childNodes);
+let numCatRoot = 0;
+for (let index = 0; index < navRoot.childNodes.length; index++) {
+   if(navRoot.childNodes[index].nodeName !== "#text")
+      numCatRoot ++;
+}
+console.log('Number of categories: ', numCatRoot);
 const navCategory = document.querySelector('.item');
-console.dir(navCategory.childNodes);
-console.log(navCategory.childNodes);
-console.log(navCategory.childNodes[1].textContent);
-console.log(navCategory.childNodes[3]);
+//console.dir(navCategory.childNodes);
+//console.log(navCategory.childNodes);
+console.log('Category: ', navCategory.childNodes[1].textContent);
+//console.log(navCategory.childNodes[3]);
 const elemList = navCategory.childNodes[3];
-console.log(elemList.childNodes);
+//console.log(elemList.childNodes);
 for (let index = 0; index < elemList.childNodes.length; index++) {
    if(elemList.childNodes[index].nodeName !== "#text")
-      console.log(elemList.childNodes[index].textContent);
+      console.log('Elements: ', elemList.childNodes[index].textContent);
    
 }
 // const elemH2 = navCategory.firstChild;
