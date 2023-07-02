@@ -2,14 +2,15 @@ const navRoot = document.querySelector("#categories");
 // console.log(navRoot);
 
 console.log(navRoot.childNodes);
-let numCatRoot = 0;
-for (let index = 0; index < navRoot.childNodes.length; index++) {
-  if (navRoot.childNodes[index].nodeName !== "#text") numCatRoot++;
-}
+// let numCatRoot = 0;
+// for (let index = 0; index < navRoot.childNodes.length; index++) {
+//   if (navRoot.childNodes[index].nodeName !== "#text") numCatRoot++;
+// }
 console.log("Number of categories: ", 
 navRoot.getElementsByClassName('item'));
-
-console.log("Number of categories: ", numCatRoot);
+console.log("Number of categories: ", 
+navRoot.getElementsByClassName('item').length);
+// console.log("Number of categories: ", numCatRoot);
 
 const navCategory = document.querySelector(".item");
 //console.dir(navCategory.childNodes);
