@@ -1,9 +1,9 @@
 const navRoot = document.querySelector('#categories');
 console.log(navRoot);
-console.log(navRoot.childNodes.length);
+console.log(navRoot.childNodes);
 const navCategory = document.querySelector('.item');
 const elemH2 = navCategory.firstChild;
-console.log(elemH2);
+console.log(elemH2.nodeName);
 // const elemList = navCategory.firstChild.nextSibling;
 // console.log(elemList);
 
