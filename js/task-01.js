@@ -10,7 +10,7 @@ const elemList = navCategory.childNodes[3];
 console.log(elemList.childNodes);
 for (let index = 0; index < elemList.childNodes.length; index++) {
    if(elemList.childNodes[index].nodeName !== "#text")
-      console.log(elemList.childNodes[index].nodeName);
+      console.log(elemList.childNodes[index].textContent);
    
 }
 // const elemH2 = navCategory.firstChild;
