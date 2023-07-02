@@ -1,5 +1,6 @@
 const navRoot = document.querySelector('#categories');
 console.log(navRoot);
+console.log(navRoot.childNodes.length);
 const navCategory = document.querySelector('.item');
 const elemH2 = navCategory.firstChild;
 console.log(elemH2);
