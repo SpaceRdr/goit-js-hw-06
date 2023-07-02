@@ -3,7 +3,7 @@ console.log(navRoot);
 console.log(navRoot.childNodes.length);
 const navCategory = document.querySelector('.item');
 const elemH2 = navCategory.firstChild;
-console.log(elemH2.nodeType);
+console.log(elemH2);
 // const elemList = navCategory.firstChild.nextSibling;
 // console.log(elemList);
 
