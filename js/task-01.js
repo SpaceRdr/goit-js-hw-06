@@ -7,7 +7,7 @@ console.log(navCategory.childNodes);
 console.log(navCategory.childNodes[1].textContent);
 console.log(navCategory.childNodes[3]);
 const elemList = navCategory.childNodes[3];
-console.log(elemList);
+console.log(elemList.childNodes);
 // for (let index = 0; index < navCategory.childNodes.length; index++) {
 //    const element = array[index];
    
