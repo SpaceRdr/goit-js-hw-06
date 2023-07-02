@@ -7,7 +7,7 @@ for (let index = 0; index < navRoot.childNodes.length; index++) {
   if (navRoot.childNodes[index].nodeName !== "#text") numCatRoot++;
 }
 console.log("Number of categories: ", 
-navRoot.getElementsByClassName('.item'));
+navRoot.getElementsByClassName('item'));
 
 console.log("Number of categories: ", numCatRoot);
 
