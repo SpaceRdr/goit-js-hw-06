@@ -17,16 +17,18 @@ const navCategory = document.querySelector(".item");
 //console.log(navCategory.childNodes);
 // for (let ind = 0; ind < ; ind++) {
 //    const element = array[ind];
-   
+navRoot.forEach((el, ind) => {
+   console.log(el);
+});
 
-   console.log("Category: ", navCategory.childNodes[1].textContent);
+   // console.log("Category: ", navCategory.childNodes[1].textContent);
    //console.log(navCategory.childNodes[3]);
    const elemList = navCategory.childNodes[3];
    //console.log(elemList.childNodes);
-   for (let index = 0; index < elemList.childNodes.length; index++) {
+   // for (let index = 0; index < elemList.childNodes.length; index++) {
   if (elemList.childNodes[index].nodeName !== "#text")
     console.log("Elements: ", elemList.childNodes[index].textContent);
-   }
+   // }
 // }
 // const elemH2 = navCategory.firstChild;
 // console.log(elemH2.nodeName);
