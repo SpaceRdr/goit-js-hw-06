@@ -6,10 +6,11 @@ console.log(navRoot.childNodes);
 // for (let index = 0; index < navRoot.childNodes.length; index++) {
 //   if (navRoot.childNodes[index].nodeName !== "#text") numCatRoot++;
 // }
+ 
+const navCategRoot = navRoot.getElementsByClassName('item');
+console.log("Number of categories: ", navCategRoot);
 console.log("Number of categories: ", 
-navRoot.getElementsByClassName('item'));
-console.log("Number of categories: ", 
-navRoot.getElementsByClassName('item').length);
+   navRoot.getElementsByClassName('item').length);
 // console.log("Number of categories: ", numCatRoot);
 
 const navCategory = document.querySelector(".item");
@@ -17,7 +18,7 @@ const navCategory = document.querySelector(".item");
 //console.log(navCategory.childNodes);
 // for (let ind = 0; ind < ; ind++) {
 //    const element = array[ind];
-navRoot.forEach((el, ind) => {
+navCategRoot.forEach(el => {
    console.log(el);
 });
 
