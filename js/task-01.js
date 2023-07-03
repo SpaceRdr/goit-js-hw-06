@@ -21,7 +21,7 @@ for (let ind = 0; ind < navCategRoot.length; ind++) {
    let nameSubCateg = navCategRoot[ind].getElementsByTagName('h2');
    console.log("First Child: ", nameSubCateg.textContent);
    let nodesSubCayeg = navCategRoot[ind].getElementsByTagName('ul');
-   console.log("Child Nodes: ", nodesSubCayeg.length);
+   console.log("Child Nodes: ", nodesSubCayeg.children.length);
 }
 // navCategRoot.forEach(el => {
 //    console.log(el);
