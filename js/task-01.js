@@ -18,10 +18,10 @@ const navCategory = document.querySelector(".item");
 //console.log(navCategory.childNodes);
 for (let ind = 0; ind < navCategRoot.length; ind++) {
    console.log("It's categories: ", navCategRoot[ind]);
-   console.log("First Child: ", 
-      navCategRoot[ind].getElementsByTagName('h2').textContent);
-   console.log("Child Nodes: ", 
-      navCategRoot[ind].getElementsByTagName('ul').children.length);
+   let nameSubCateg = navCategRoot[ind].getElementsByTagName('h2');
+   console.log("First Child: ", nameSubCateg.textContent);
+   let nodesSubCayeg = navCategRoot[ind].getElementsByTagName('ul');
+   console.log("Child Nodes: ", nodesSubCayeg.length);
 }
 // navCategRoot.forEach(el => {
 //    console.log(el);
