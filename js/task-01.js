@@ -14,12 +14,12 @@ console.log("Number of categories: ",
 // console.log("Number of categories: ", numCatRoot);
 
 // const navCategory = document.querySelector(".item");
-navCategRoot.forEach(el => {
-   console.log(el);
-});
+// navCategRoot.forEach(el => {
+//    console.log(el);
+// });
 //console.dir(navCategory.childNodes);
 //console.log(navCategory.childNodes);
-console.log("Num ind: ", navCategRoot.length);
+//console.log("Num ind: ", navCategRoot.length);
 for (let ind = 0; ind < navCategRoot.length; ind++) {
    //console.log("It's categories: ", navCategRoot[ind]);
    console.log("Category: ", 
