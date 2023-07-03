@@ -16,12 +16,14 @@ console.log("Number of categories: ",
 const navCategory = document.querySelector(".item");
 //console.dir(navCategory.childNodes);
 //console.log(navCategory.childNodes);
+console.log("Num ind: ", navCategRoot.length);
 for (let ind = 0; ind < navCategRoot.length; ind++) {
    console.log("It's categories: ", navCategRoot[ind]);
    let nameSubCateg = navCategRoot[ind].getElementsByTagName('h2');
+   console.log("First Child: ", nameSubCateg);
    console.log("First Child: ", nameSubCateg.textContent);
    let nodesSubCayeg = navCategRoot[ind].getElementsByTagName('ul');
-   //console.log("Child Nodes: ", nodesSubCayeg.children.length);
+   console.log("Child Nodes: ", nodesSubCayeg);
 }
 // navCategRoot.forEach(el => {
 //    console.log(el);
