@@ -25,7 +25,7 @@ for (let ind = 0; ind < navCategRoot.length; ind++) {
 
    // console.log("Category: ", navCategory.childNodes[1].textContent);
    //console.log(navCategory.childNodes[3]);
-   const elemList = navCategory.childNodes[3];
+   //const elemList = navCategory.childNodes[3];
    //console.log(elemList.childNodes);
    // for (let index = 0; index < elemList.childNodes.length; index++) {
   if (elemList.childNodes[index].nodeName !== "#text")
