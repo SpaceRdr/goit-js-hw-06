@@ -19,9 +19,9 @@ const navCategory = document.querySelector(".item");
 for (let ind = 0; ind < navCategRoot.length; ind++) {
    console.log("It's categories: ", navCategRoot[ind]);
    console.log("First Child: ", 
-      navCategRoot[ind].getElementsByTagName('h2'));
+      navCategRoot[ind].getElementsByTagName('h2').textContent);
    console.log("Child Nodes: ", 
-      navCategRoot[ind].getElementsByTagName('ul'));
+      navCategRoot[ind].getElementsByTagName('ul').children.length);
 }
 // navCategRoot.forEach(el => {
 //    console.log(el);
