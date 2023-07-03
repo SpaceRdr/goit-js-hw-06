@@ -24,6 +24,7 @@ for (let ind = 0; ind < navCategRoot.length; ind++) {
    console.log("First Child: ", nameSubCateg.textContent);
    let nodesSubCayeg = navCategRoot[ind].getElementsByTagName('ul');
    console.log("Child Nodes: ", nodesSubCayeg);
+   
 }
 // navCategRoot.forEach(el => {
 //    console.log(el);
