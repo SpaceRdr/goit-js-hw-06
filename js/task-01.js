@@ -1,5 +1,5 @@
 const navRoot = document.querySelector("#categories");
-// console.log(navRoot);
+console.log(navRoot);
 
 //console.log(navRoot.childNodes);
 // let numCatRoot = 0;
