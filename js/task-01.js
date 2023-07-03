@@ -18,6 +18,8 @@ const navCategory = document.querySelector(".item");
 //console.log(navCategory.childNodes);
 for (let ind = 0; ind < navCategRoot.length; ind++) {
    console.log("It's categories: ", navCategRoot[ind]);
+   console.log("First Child: ", navCategRoot[ind].firstChild);
+   console.log("First Child: ", navCategRoot[ind].childNodes);
 }
 // navCategRoot.forEach(el => {
 //    console.log(el);
