@@ -23,6 +23,7 @@ ${insImg.url}" alt="${insImg.alt}"></li>`).join('');
 
 galleryList.insertAdjacentHTML('beforeEnd', galleryItemIns);
 
+
 // images.forEach(function(elem, ind) {  
 //   galleryItemIns[ind] = document.createElement("li");
 //   // galleryList.append(galleryItemIns[ind]);
