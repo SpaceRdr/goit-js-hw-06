@@ -21,8 +21,8 @@ console.log(galleryList);
 images.forEach(function(elem, ind) {  
   galleryItemIns[ind] = document.createElement("li");
   //console.log(insItem[ind]);
-  galleryItemIns[ind].appendChild("img");
-  // insItem[ind].textContent = elem;
+  //galleryItemIns[ind].appendChild("img");
+  galleryItemIns[ind].textContent = `<img scr=\"${elem.url}\" alt=>`;
   // insItem[ind].className = 'item';
 });
 console.log(galleryList);
