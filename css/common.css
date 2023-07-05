@@ -24,9 +24,10 @@ button {
 }
 
 .gallery {
-  display: flex;
-  flex-direction: row;
-  /* width: 1200 px; */
+  display: inline-block;
+  /* display: flex;
+  flex-direction: row; */
+  width: 1200 px;
 }
 
 li {
