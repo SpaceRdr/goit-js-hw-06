@@ -26,3 +26,4 @@ images.forEach(function(elem, ind) {
   // insItem[ind].className = 'item';
 });
 console.log(galleryList);
+
