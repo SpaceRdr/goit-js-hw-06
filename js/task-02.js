@@ -17,7 +17,9 @@ ingredients.forEach(function(elem, ind) {
   console.log(insItem[ind]);
   insItem[ind].textContent = elem;
   // ingredients[ind]
-  editList.append(insItem[ind]);
+  //editList.append(insItem[ind]);
 
 });
+console.log(...insItem);
+//editList.append(...insItem);
 console.log(editList);
