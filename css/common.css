@@ -23,13 +23,15 @@ button {
   cursor: pointer;
 }
 
-.gallery {
-  display: inline-block;
-  /* display: flex;
-  flex-direction: row; */
+.box-galery {
   width: 1200 px;
 }
-
-li {
-  width: 300 px;
+.gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  
 }
+
+
