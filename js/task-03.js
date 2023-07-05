@@ -23,6 +23,7 @@ images.forEach(function(elem, ind) {
   //console.log(insItem[ind]);
   //galleryItemIns[ind].appendChild("img");
   galleryItemIns[ind].textContent = `<img scr=\"${elem.url}\" alt=>`;
+  console.log( galleryItemIns[ind]);
   // insItem[ind].className = 'item';
 });
 console.log(galleryList);
