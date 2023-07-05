@@ -20,9 +20,12 @@ console.log(galleryList);
 
 images.forEach(function(elem, ind) {  
   galleryItemIns[ind] = document.createElement("li");
+  // galleryList.append(galleryItemIns[ind]);
+  // galleryItemIns[ind].appendChild("img");
   //console.log(insItem[ind]);
-  //galleryItemIns[ind].appendChild("img");
-  // galleryItemIns[ind].textContent = `<img scr="${elem.url}">`;
+  
+  galleryItemIns[ind].textContent = `<img src="${elem.url}" 
+  alt="${elem.alt}">`;
   // console.log( galleryItemIns[ind]);
   // insItem[ind].className = 'item';
 });
