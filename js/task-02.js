@@ -14,7 +14,7 @@ console.log(editList);
 
 ingredients.forEach(function(elem, ind) {  
   insItem[ind] = document.createElement("li");
-  console.log(insItem[ind]);
+  //console.log(insItem[ind]);
   insItem[ind].textContent = elem;
   insItem[ind].className = 'item';
 });
