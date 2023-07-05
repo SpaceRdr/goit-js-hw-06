@@ -22,9 +22,10 @@ images.forEach(function(elem, ind) {
   galleryItemIns[ind] = document.createElement("li");
   //console.log(insItem[ind]);
   //galleryItemIns[ind].appendChild("img");
-  galleryItemIns[ind].textContent = `<img scr="${elem.url}">`;
-  console.log( galleryItemIns[ind]);
+  // galleryItemIns[ind].textContent = `<img scr="${elem.url}">`;
+  // console.log( galleryItemIns[ind]);
   // insItem[ind].className = 'item';
 });
-console.log(galleryList);
 
+galleryList.append(...galleryItemIns);
+console.log(galleryList);
