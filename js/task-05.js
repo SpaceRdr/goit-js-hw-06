@@ -1,7 +1,7 @@
 const txtInput = document.querySelector('#name-input');
 const txtOutput = document.querySelector('#name-output');
-console.log(txtInput);
-console.log(txtOutput);
+// console.log(txtInput);
+// console.log(txtOutput);
 
 
 const hendInput = () => {
