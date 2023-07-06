@@ -7,11 +7,15 @@ const txtInputLength = txtInput.getAttribute("data-length");
 console.log(txtInputLength);
 
 function validatorInp () {
-   console.log('Length ', txtInput.textContent.length);
+   console.log('Length ', txtInput.value.length);
  if (txtInput.value.length < txtInputLength)
-   {console.log('Error');}
+   {console.log('Error');
+   txtInput.id = 'validation-input.invalid';
+   }
    else
-   {console.log('Right');}
+   {console.log('Right');
+   txtInput.id = 'validation-input.valid';
+   }
 }
 
 txtInput.addEventListener('blur', validatorInp);
