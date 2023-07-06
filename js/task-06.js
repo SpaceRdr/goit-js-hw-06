@@ -8,14 +8,14 @@ console.log(txtInputLength);
 
 function validatorInp () {
    console.log('Length ', txtInput.value.length);
- if (txtInput.value.length < txtInputLength)
-   {console.log('Error');
+ if (txtInput.value.length === txtInputLength)
+   {console.log('Error 2');
    txtInput.classList.remove("valid");
    txtInput.classList.add("invalid");
    // txtInput.id = 'validation-input.invalid';
    }
    else
-   {console.log('Right');
+   {console.log('Right 2');
    txtInput.classList.remove("invalid");
    txtInput.classList.add("valid");
    // txtInput.id = 'validation-input.valid';
