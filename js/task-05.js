@@ -3,7 +3,7 @@ const txtOutput = document.querySelector('name-output');
 
 txtInput.addEventListener('input', hendInput);
 
-const hendInput() {
+function hendInput() {
    if (txtInput.value === '')
       txtOutput.textContent = 'Anonymous';
       else
