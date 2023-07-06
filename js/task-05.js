@@ -3,7 +3,6 @@ const txtOutput = document.querySelector('#name-output');
 console.log(txtInput);
 console.log(txtOutput);
 
-txtInput.addEventListener("input", hendInput); 
 
 const hendInput = () => {
    if (txtInput.value === "")
@@ -12,5 +11,6 @@ const hendInput = () => {
       txtOutput.textContent = txtInput.value;
 }
 
+txtInput.addEventListener("input", hendInput); 
 
 // console.log();
