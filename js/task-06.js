@@ -10,14 +10,14 @@ function validatorInp () {
    console.log('Length ', txtInput.value.length);
  if (txtInput.value.length < txtInputLength)
    {console.log('Error');
-   let style = window.getComputedStyle(txtInput);
-   console.log('style ', style);
+   txtInput.classList.remove("valid");
+   txtInput.classList.add("invalid");
    // txtInput.id = 'validation-input.invalid';
    }
    else
    {console.log('Right');
-   let style = window.getComputedStyle(txtInput);
-   console.log('style ', style);
+   txtInput.classList.remove("invalid");
+   txtInput.classList.add("valid");
    // txtInput.id = 'validation-input.valid';
    }
 }
