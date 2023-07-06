@@ -10,11 +10,15 @@ function validatorInp () {
    console.log('Length ', txtInput.value.length);
  if (txtInput.value.length < txtInputLength)
    {console.log('Error');
-   txtInput.id = 'validation-input.invalid';
+   let style = window.getComputedStyle(txtInput);
+   console.log('style ', style);
+   // txtInput.id = 'validation-input.invalid';
    }
    else
    {console.log('Right');
-   txtInput.id = 'validation-input.valid';
+   let style = window.getComputedStyle(txtInput);
+   console.log('style ', style);
+   // txtInput.id = 'validation-input.valid';
    }
 }
 
