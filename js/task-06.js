@@ -6,9 +6,12 @@ console.dir(txtInput);
 const txtInputLength = txtInput.getAttribute("data-length");
 console.log(txtInputLength);
 
-// function validatorInp () {
- 
-// }
+function validatorInp () {
+ if (txtInput.textContent.length < txtInputLength)
+   {console.log('Error');}
+   else
+   {console.log('Right');}
+}
 
-// txtInput.addEventListener('blur', validatorInp);
+txtInput.addEventListener('blur', validatorInp);
 // console.log();
