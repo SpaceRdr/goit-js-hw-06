@@ -10,7 +10,7 @@ console.log('txtInputLength', typeof txtInputLength);
 function validatorInp () {
    console.log('Length ', txtInput.value.length);
    console.log('txtInput.value.length ', typeof txtInput.value.length);
- if (txtInput.value.length === txtInputLength)
+ if (txtInput.value.length == txtInputLength)
    {console.log('Error 4');
    txtInput.classList.remove("valid");
    txtInput.classList.add("invalid");
