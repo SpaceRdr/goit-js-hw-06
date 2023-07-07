@@ -6,7 +6,7 @@ function manualInpSubmit(event) {
   const {
     elements: { login, password }
   } = event.currentTarg;
-  console.log('event ', event);
+  console.log('event ', event.currentTarg);
 
   if (login.value === "" || password.value === "") 
       {
