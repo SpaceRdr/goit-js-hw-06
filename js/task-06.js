@@ -5,10 +5,11 @@ console.dir(txtInput);
 
 const txtInputLength = Number(txtInput.getAttribute("data-length"));
 console.log(txtInputLength);
+console.log('txtInputLength', typeof txtInputLength);
 
 function validatorInp () {
    console.log('Length ', txtInput.value.length);
-   console.log(typeof txtInput.value.length);
+   console.log('txtInput.value.length ', typeof txtInput.value.length);
  if (txtInput.value.length === txtInputLength)
    {console.log('Error 4');
    txtInput.classList.remove("valid");
