@@ -5,8 +5,8 @@ function manualInpSubmit(event) {
   event.preventDefault();
   const {
     elements: { email, password }
-  } = event.currentTarg;
-  console.log('event ', event.currentTarg);
+  } = event.currentTarget;
+  console.log('event ', event.currentTarget);
 
   if (email.value === "" || password.value === "") 
       {
@@ -15,7 +15,7 @@ function manualInpSubmit(event) {
       }
   console.log(`Login: ${email.value}, Password: 
                      ${password.value}`);
-  event.currentTarg.reset();
+  event.currentTarget.reset();
 };
 
 form.addEventListener("submit", manualInpSubmit);
