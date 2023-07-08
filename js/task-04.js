@@ -8,7 +8,7 @@ const incBtn = document.querySelector(
 const clickIncr = () => {
    let str = countValue.textContent;
    let num = Number(str);
-   num ++;
+   num += 1;
    countValue.textContent = String(num);
 };
 
@@ -17,7 +17,7 @@ incBtn.addEventListener('click', clickIncr);
 const clickDecr = () => {
    let str = countValue.textContent;
    let num = Number(str);
-   num --;
+   num -= 1;
    countValue.textContent = String(num);
 };
 
