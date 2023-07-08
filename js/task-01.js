@@ -1,8 +1,8 @@
 
 
 const catgrItem = document.querySelectorAll("#categories > li.item");
-console.log(catgrItem);
-
+console.log('catgrItem ',catgrItem);
+console.dir('catgrItem ',catgrItem);
 const itemsCount = catgrItem.length;
 console.log(`Number of categories: ${ itemCount } `);
 
