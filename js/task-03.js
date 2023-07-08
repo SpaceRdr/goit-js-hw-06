@@ -13,10 +13,8 @@ const images = [
   },
 ];
 
-// const galleryItemIns = [3];
 
 const galleryList = document.querySelector(".gallery");
-console.log(galleryList);
 
 const galleryItemIns = images.map(insImg => `<li><img src="
 ${insImg.url}" alt="${insImg.alt}"></li>`).join('');
@@ -24,17 +22,3 @@ ${insImg.url}" alt="${insImg.alt}"></li>`).join('');
 galleryList.insertAdjacentHTML('beforeEnd', galleryItemIns);
 
 
-// images.forEach(function(elem, ind) {  
-//   galleryItemIns[ind] = document.createElement("li");
-//   // galleryList.append(galleryItemIns[ind]);
-//   // galleryItemIns[ind].appendChild("img");
-//   //console.log(insItem[ind]);
-  
-//   galleryItemIns[ind].textContent = `<img src="${elem.url}" 
-//   alt="${elem.alt}">`;
-//   // console.log( galleryItemIns[ind]);
-//   // insItem[ind].className = 'item';
-// });
-
-// galleryList.append(...galleryItemIns);
-// console.log(galleryList);
