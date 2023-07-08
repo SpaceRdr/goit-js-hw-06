@@ -1,5 +1,3 @@
-
-
 const form = document.querySelector(".login-form");
 
 function manualInpSubmit(elem) {
